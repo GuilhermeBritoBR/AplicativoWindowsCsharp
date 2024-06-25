@@ -20,5 +20,10 @@ namespace Aplicativo
         {
             InitializeComponent();
         }
+
+        private void ok_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Bom dia!" + userName.Text);
+        }
     }
 }

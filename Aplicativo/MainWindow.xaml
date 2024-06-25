@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Aplicativo"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="Aplicativo bom dia" Height="450" Width="800">
+    <Grid Margin="0,0,0,-6">
+        <!-- ESTILO HTML MESMA COISA -->
+        <Label FontSize="18" Content="MEU PRIMEIRO APLICATIVO DO WINDOWS" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0"/>
+        <Label FontSize="18" Content="Por favor! Digite seu nome." HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,186,0,0"/>
+        <TextBox x:Name="userName" HorizontalAlignment="Center" Margin="0,225,0,0" TextWrapping="Wrap" Text="Digite aqui.." VerticalAlignment="Top" Width="200" Height="35" TextAlignment="Center"/>
+        <Button x:Name="ok" Content="Button" HorizontalAlignment="Center" Margin="0,280,0,0" VerticalAlignment="Top" Width="120" Height="35" Click="ok_Click"/>
 
     </Grid>
 </Window>
